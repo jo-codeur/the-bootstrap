@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Warnes&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,300&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="ressources/CSS/styles.css">
+        <title>premier site en bootstrap</title>
+    </head>
+
+    <body>
+        
+        <header>
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+
+                <div class="container">
+
+                    <a href="#" class="navbar-brand">Boutique de Thé</a>
+
+                    <button class="navbar-toggler" 
+                            type="button" 
+                            data-toggle="collapse" 
+                            data-target="#monMenu" 
+                            aria-controls="monMenu" 
+                            aria-label="Menu pour mobile">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+
+                    <div class="collapse navbar-collapse" id="monMenu">
+                        <div class="navbar-nav ml-auto">
+                            <a href="#" class="nav-item nav-link">Qui sommes-nous</a>
+                            <a href="#nosproduits" class="nav-item nav-link">Nos produits</a>
+                            <a href="#photos" class="nav-item nav-link">Photos</a>
+                            <a href="#nospacks" class="nav-item nav-link">Nos packs</a>
+                            <a href="#contact" class="nav-item nav-link">Contact</a>
+                        </div>
+    
+                    </div>
+
+                </div>
+
+            </nav>
+
+
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 home-title">
+                        <h1>L'art du <span>thé</span></h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora </p>
+                        <a href="#" class="btn btn-full">Mes produits</a>
+                        <a href="#"class="btn btn-ghost">Contactez-moi</a>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+
+        <!--PRESENTATION-->
+        <section id="nosproduits">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-12">
+                        <h2>Nos Produits</h2>
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-md-7">
+                        <img src="ressources/images/tea.png" alt="tea" class="produits-img">
+                    </div>
+
+                    <div class="col-md-5">
+                        <!--plus produit 1-->
+                        <div class="produits-plus">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <div class="produits-icon">
+                                        <i class="far fa-check-circle"></i>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-10">
+                                    <h3>Produits BIO</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt assumenda voluptates, repudiandae quae quisquam alias fugiat reprehenderit cum sunt, laborum ratione. Perferendis rerum explicabo laboriosam fugit quos consequuntur laudantium! Sunt.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--plus produit 2-->
+                        <div class="produits-plus">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <div class="produits-icon">
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-10">
+                                    <h3>Produits BIO</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt assumenda voluptates, repudiandae quae quisquam alias fugiat reprehenderit cum sunt, laborum ratione. Perferendis rerum explicabo laboriosam fugit quos consequuntur laudantium! Sunt.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--plus produit 3-->
+                        <div class="produits-plus">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <div class="produits-icon">
+                                        <i class="far fa-laugh"></i>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-10">
+                                    <h3>Produits BIO</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt assumenda voluptates, repudiandae quae quisquam alias fugiat reprehenderit cum sunt, laborum ratione. Perferendis rerum explicabo laboriosam fugit quos consequuntur laudantium! Sunt.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--FAMILLES DES THES-->
+
+        <section  class="famille-tea">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Familles des thés</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="famille-details">
+                            <img src="ressources/images/the-noir.png" alt="">
+                            <h4>Thé noirs</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo libero porro quod quam.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="famille-details">
+                            <img src="ressources/images/the-jaune.png" alt="">
+                            <h4>Thé jaune</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo libero porro quod quam.</p>
+                        </div>
+                    </div>
+                    <di class="col-md-4"v>
+                        <div class="famille-details">
+                            <img src="ressources/images/the-vert.png" alt="">
+                            <h4>Thé vert</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo libero porro quod quam.</p>
+                        </div>
+                    </di>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--GALERIE PHOTO-->
+
+        <section id="photos">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Galerie photos</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="galerie-img" style="background-image: url('ressources/images/galerie/the1.jpg');">
+                            <div class="galeries-title">
+                                <h4>image thé</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-8">
+                        <div class="galerie-img" style="background-image: url('ressources/images/galerie/the2.jpg');">
+                            <div class="galeries-title">
+                                <h4>image thé</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="galerie-img" style="background-image: url('ressources/images/galerie/the3.jpg');">
+                            <div class="galeries-title">
+                                <h4>image thé</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="galerie-img" style="background-image: url('ressources/images/galerie/the4.jpg');">
+                            <div class="galeries-title">
+                                <h4>image thé</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="galerie-img" style="background-image: url('ressources/images/galerie/the5.jpg');">
+                            <div class="galeries-title">
+                                <h4>image thé</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--AVIS CLIENT-->
+
+        <section class="clients">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Ils ont adoré</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="client-profil">
+                            <blockquote>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                <cite><img src="ressources/images/clients/emilie.jpg" alt="">Emilie Du Chatelet</cite>
+                            </blockquote>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="client-profil">
+                            <blockquote>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                <cite><img src="ressources/images/clients/blaise.jpg" alt="">Blaise Pascal</cite>
+                            </blockquote>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="client-profil">
+                            <blockquote>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                <cite><img src="ressources/images/clients/julia.jpg" alt="">Julia Robinson</cite>
+                            </blockquote>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!--PACK-->
+
+        <section id="nospacks">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Nos packs</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!--Pack1-->
+                    <div class="col-md-4">
+                        <div class="pack">
+                            <div class="pack-title">
+                                <h3>Basique</h3>
+                                <h4>Gratuit</h4>
+                                <p>30 jours d'essai offert.</p>
+                            </div>
+                            <div class="pack-content">
+                                <ul>
+                                    <li><i class="fas fa-check-circle"></i> 5 thés</li>
+                                    <li><i class="fas fa-times-circle"></i>10 thés BIO</li>
+                                    <li><i class="fas fa-times-circle"></i>1 kit de services</li>
+                                    <li><i class="fas fa-times-circle"></i>1 bouilloire</li>
+                                </ul>
+                            </div>
+                            <div class="pack-signup">
+                                <a href="/" class="btn btn-pack">Je m'inscrit</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Pack2-->
+                    <div class="col-md-4">
+                        <div class="pack pack-premium">
+                            <div class="pack-title">
+                                <h3>Premium</h3>
+                                <h4>19€<span>/mois</span></h4>
+                                <p>Pour les amoureux du thés</p>
+                                <p class="pack-title-premium">Le plus populaire</p>
+                            </div>
+                            <div class="pack-content">
+                                <ul>
+                                    <li><i class="fas fa-check-circle"></i> 5 thés</li>
+                                    <li><i class="fas fa-check-circle"></i>10 thés BIO</li>
+                                    <li><i class="fas fa-check-circle"></i>1 kit de services</li>
+                                    <li><i class="fas fa-times-circle"></i>1 bouilloire</li>
+                                </ul>
+                            </div>
+                            <div class="pack-signup">
+                                <a href="/" class="btn btn-pack">Je m'inscrit</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Pack3-->
+                    <div class="col-md-4">
+                        <div class="pack">
+                            <div class="pack-title">
+                                <h3>Elite</h3>
+                                <h4>49€<span>/mois</span></h4>
+                                <p>Pour les ultra accros du thé</p>
+                            </div>
+                            <div class="pack-content">
+                                <ul>
+                                    <li><i class="fas fa-check-circle"></i> 5 thés</li>
+                                    <li><i class="fas fa-check-circle"></i>10 thés BIO</li>
+                                    <li><i class="fas fa-check-circle"></i>1 kit de services</li>
+                                    <li><i class="fas fa-check-circle"></i>1 bouilloire</li>
+                                </ul>
+                            </div>
+                            <div class="pack-signup">
+                                <a href="/" class="btn btn-pack">Je m'inscrit</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--CONTACTS-->
+
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form">
+                                    <h2>Contactez-nous</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil explicabo rem magnam optio </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="phone">
+                                    <p><i class="fas fa-phone"></i> 05.33.35.12.03</p>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="adress">
+                                    <p><i class="fas fa-map-marker-alt"></i> 10 rue de zizou 92000 Paris</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="contact-form">
+                                        <label>Nom :</label>
+                                        <input type="text" id="name">    
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="contact-form">
+                                        <label>Email :</label>
+                                        <input type="email" id="email" placeholder="Ajouter votre email">    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="contact-form">
+                                        <label>Sélectionnez le service</label>
+                                        <select>
+                                            <option value="">Service client</option>
+                                            <option value=""> Service comptable</option>
+                                            <option value="">Service après vente</option>
+                                        </select>    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="contact-form">
+                                        <label>Votre message</label>
+                                        <textarea rows="3" class="contact-message"></textarea>        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="contact-form">
+                                        <button class="btn btn-contact">Envoyer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1948.2908250394803!2d-0.4660191089187545!3d46.32375163319397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4807302cb7bc7683%3A0x4f8dc6c613b56795!2sLa%20Dame%20Aux%20Herbes!5e0!3m2!1sfr!2sfr!4v1602180873168!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>                
+                        </div>
+            </div>
+        </section>
+
+        <!--FOOTER-->
+
+        <footer>
+            <div class="copyright">
+                <p>Site de thé - 2020 <a href="#"> Mention légale</a></p>
+            </div>
+        </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    </body>
+</html>
